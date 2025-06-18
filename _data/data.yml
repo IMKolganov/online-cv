@@ -1,286 +1,176 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: true
+  education: true
 
-  # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Ivan Kolganov
+  tagline: C# Developer
+  avatar: profile.png
 
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
+  email: imkolganov@gmail.com
+  phone: '+357 (97) 739091'
+  timezone: Europe/Nicosia
+  citizenship: Russian
+  website:
+  linkedin: https://www.linkedin.com/in/ivan-kolganov-187004190/
+  xing:
+  github: imkolganov
+  telegram: "@KolganovIvan"
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  bluesky:
+  twitter:
+  stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  goodreads:
+  mastodon:
+  hackerrank:
+  leetcode:
+  pdf:
 
   languages:
     title: Languages
     info:
-    - idiom: English
-      level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+      - idiom: Russian
+        level: Native
+      - idiom: English
+        level: Upper Intermediate (B2)
+      - idiom: Greek
+        level: Elementary (A2)
 
   interests:
     title: Interests
     info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+      - item: Programming
+      - item: Architecture
+      - item: Automation
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Experienced C# developer with over 10 years of hands-on expertise in designing, building, and supporting enterprise systems and high-load microservice architectures.
+
+    Skilled in .NET / .NET Core, ASP.NET (MVC and Blazor), and integration of distributed systems using gRPC, REST APIs, RabbitMQ, and Elasticsearch.
+
+    Proven track record in developing solutions for the **financial** and **advertising** industries, including large-scale data pipelines, customer behavior analytics, and integration with various external systems.
+
+    Confident in DevOps practices with Docker, Jenkins, OpenShift, and GitHub Actions, as well as CI/CD automation and secure service delivery.
+
+    Strong problem-solving skills, architectural thinking, and ability to deliver production-ready software in fast-paced, cross-functional environments.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - degree: Vocational Secondary
+      university: Polytechnic College №8 named after Pavlov
+      time: 2014
+      details: |
+        Automated control and information processing systems.
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - role: C# Developer
+      time: Jan 2024 – Apr 2025
+      company: Elly Analytics
+      details: |
+        Developed and maintained analytics platforms focused on processing **large-scale advertising data** and analyzing **customer behavior** across multiple client companies.
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+        Built internal infrastructure tools using **Blazor** for secure access to company systems, and implemented a **security architecture** based on **.NET 6**.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+        Supported and extended microservices communicating via **message queues**, integrated with external advertising platforms such as **Google Ads**, **Facebook Ads**, and **Yandex Direct**.
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        Designed and optimized data flows into **Elasticsearch** for fast, flexible querying and visualization of advertising and user behavior metrics.
+    - role: C# Developer
+      time: Jul 2022 – May 2024
+      company: Gamyfy Ltd
+      details: |
+        Developed backend services for a gaming platform using **C#**, **ASP.NET Core**, **SignalR**, **gRPC**, and **Entity Framework Core**.
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+        Implemented API Gateway functionality via **Ocelot**, handled real-time communication scenarios, and contributed to scalable system architecture.
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        Applied **MediatR** for implementing the CQRS pattern, enabling decoupled request/response handling across services.
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        Integrated **Elasticsearch** for indexing gameplay events, user activity, and system logs to support monitoring, search, and analytics.
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        Automated build and deployment pipelines using **GitHub Actions**, with **Docker-based** delivery of microservices for consistency across development and production environments.
+    - role: Head Development Engineer
+      time: May 2019 – Jul 2022
+      company: Non-state Pension Fund of Sberbank
+      details: |
+        Led development of backend services and system integrations in a high-load banking environment.
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        Played a key role in designing and implementing **.NET Core 3.1 microservices** for **Sber Online**, deployed in **OpenShift** containers.
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        Developed integrations with internal systems, including:
+        - **Diasoft CRM** (Delphi-based, MSSQL)
+        - **IBM FileNet** (document management system)
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        Maintained and extended legacy systems built with **Delphi**, as well as applications using **WPF**, **MSSQL**, and **MySQL**.
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+        Designed and maintained **Jenkins pipelines** for CI/CD, automating the build and deployment of all microservices to OpenShift clusters.
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        Worked in an Agile environment using **Jira** and **Confluence** for planning and documentation.
+    - role: Developer
+      time: Mar 2016 – May 2019
+      company: Academic Gymnasium at Cambridge
+      details: |
+        Developed and maintained internal CRM and warehouse management systems using **Delphi (VCL + Firebird)** and **C# (.NET Framework with ASP.NET MVC + Razor)**, with **MS SQL Server** as the backend database.
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+        Built Razor-based web interfaces, implemented business logic, and integrated with relational databases.
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+        Worked across both legacy desktop tools and modern web platforms to support school operations and resource management.
+    - role: Programmer / System Administrator
+      time: Nov 2015 – Dec 2016
+      company: Vash Razmer
+      details: |
+        Focused primarily on software development using **Delphi**, **VCL**, **DevExpress**, and **MS SQL Server** to support and automate business operations.
 
-      He is a great employee!
+        Developed POS (point-of-sale) interfaces for cashiers, internal accounting tools, and SMS notification modules integrated with customer and sales data.
+
+        Also performed system administration tasks to support the development environment and ensure infrastructure stability.
+    - role: Developer
+      time: Apr 2013 – Dec 2014
+      company: Svyaz Engineering
+      details: |
+        Worked in a small team developing desktop applications using Delphi and the VCL framework to automate internal workflows and integrate with 1C:Enterprise.
+
+        Developed a tool for automatic printing of large-format drawings (A1–A3), triggered by data from 1C.
+
+        Created an accounting automation utility that processed and synchronized data from 1C.
+
+        Analyzed routine tasks and implemented custom solutions to improve process efficiency.
+
+
 
 skills:
-  title: Skills &amp; Proficiency
-
+  title: Skills & Proficiency
   toolset:
-  - name: Python & Django
-    level: 98%
+    - name: C# / .NET / .NET Core / ASP.NET MVC
+      level: 98%
+    - name: Microservices / REST API / gRPC / SignalR / Ocelot
+      level: 95%
+    - name: RabbitMQ / Message Queues
+      level: 90%
+    - name: MediatR / CQRS
+      level: 85%
+    - name: Elasticsearch
+      level: 85%
+    - name: Docker / Jenkins / GitHub Actions / OpenShift
+      level: 85%
+    - name: PostgreSQL / MSSQL / MySQL / Firebird
+      level: 90%
+    - name: Entity Framework Core / LINQ
+      level: 90%
+    - name: Blazor / Razor / ASP.NET Identity
+      level: 80%
+    - name: Delphi / VCL / DevExpress
+      level: 75%
+    - name: Git / CI/CD / Jira / Confluence
+      level: 85%
+    - name: HTML / CSS / JavaScript (basic)
+      level: 50%
 
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
