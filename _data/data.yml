@@ -12,10 +12,10 @@ sidebar:
   timezone: Europe/Nicosia
   citizenship: Russian
   website:
-  linkedin: https://www.linkedin.com/in/ivan-kolganov-187004190/
+  linkedin: imkolganov
   xing:
   github: imkolganov
-  telegram: "@KolganovIvan"
+  telegram: KolganovIvan
   gitlab:
   bitbucket:
   bluesky:
@@ -61,7 +61,7 @@ career-profile:
 education:
   title: Education
   info:
-    - degree: Vocational Secondary
+    - degree: Degree
       university: Polytechnic College №8 named after Pavlov
       time: 2014
       details: |
