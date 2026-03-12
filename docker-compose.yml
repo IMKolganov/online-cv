@@ -5,9 +5,14 @@ services:
     command: jekyll serve --watch --force_polling --verbose --livereload --host 0.0.0.0
     volumes:
       - .:/srv/jekyll:Z
+      # Кэш гемов между перезапусками — не нужно каждый раз bundle install
+      - jekyll-gems:/usr/local/bundle
     environment:
       JEKYLL_UID: 1001
       JEKYLL_GID: 1001
       JEKYLL_VERSION: 3.8
     ports:
       - 4000:4000
+
+volumes:
+  jekyll-gems:
