@@ -4,7 +4,7 @@ sidebar:
   education: true
 
   name: Ivan Kolganov
-  tagline: C# Developer
+  tagline: Software Developer
   avatar: profile.png
 
   email: imkolganov@gmail.com
@@ -48,9 +48,9 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Experienced C# developer with over 10 years of hands-on expertise in designing, building, and supporting enterprise systems and high-load microservice architectures.
+    Experienced software developer with over 10 years of hands-on expertise in designing, building, and supporting enterprise systems and high-load microservice architectures.
 
-    Skilled in .NET / .NET Core, ASP.NET (MVC and Blazor), and integration of distributed systems using gRPC, REST APIs, RabbitMQ, and Elasticsearch.
+    Skilled in .NET / .NET Core, ASP.NET (MVC and Blazor), **Python** (Flask, microservices, tooling), **Redis**, and integration of distributed systems using gRPC, REST APIs, RabbitMQ, and Elasticsearch.
 
     Proven track record in developing solutions for the **financial** and **advertising** industries, including large-scale data pipelines, customer behavior analytics, and integration with various external systems.
 
@@ -70,7 +70,22 @@ education:
 experiences:
   title: Experiences
   info:
-    - role: C# Developer
+    - role: Senior Software Developer
+      time: Apr 2025 – Mar 2026
+      company: ISX Financial EU Plc
+      details: |
+        Worked on backend development for a **financial payment platform** used for processing transactions and integrations with external financial institutions.
+
+        Implemented integration with the **UK Post Office payment system**, including processing settlement files, barcode-based payments, and automated reconciliation pipelines.
+
+        Designed and developed services for **processing high-volume financial data**, parsing structured files (CSV / XML), validating transactions, and storing results in relational databases.
+
+        Developed internal tooling for **barcode generation and payment reference processing**, used in payment terminals and customer payment flows.
+
+        Implemented secure **SFTP-based file exchange** with external partners and built automation tools for downloading, validating, and importing financial settlement files.
+
+        Worked extensively with **C#**, **Python** (Flask, microservices, tooling), **Redis**, **ASP.NET**, **SQL Server**, and **high-load backend services**, focusing on reliability, data consistency, and auditability of financial transactions.
+    - role: Software Developer
       time: Jan 2024 – Apr 2025
       company: Elly Analytics
       details: |
@@ -80,8 +95,8 @@ experiences:
 
         Supported and extended microservices communicating via **message queues**, integrated with external advertising platforms such as **Google Ads**, **Facebook Ads**, and **Yandex Direct**.
 
-        Designed and optimized data flows into **Elasticsearch** for fast, flexible querying and visualization of advertising and user behavior metrics.
-    - role: C# Developer
+        Designed and optimized data flows into **Elasticsearch** for fast, flexible querying and visualization of advertising and user behavior metrics. Also contributed to **Python** (Flask) microservices and used **Redis** for caching and session state across the platform.
+    - role: Software Developer
       time: Jul 2022 – May 2024
       company: Gamyfy Ltd
       details: |
@@ -93,14 +108,14 @@ experiences:
 
         Integrated **Elasticsearch** for indexing gameplay events, user activity, and system logs to support monitoring, search, and analytics.
 
-        Automated build and deployment pipelines using **GitHub Actions**, with **Docker-based** delivery of microservices for consistency across development and production environments.
+        Automated build and deployment pipelines using **GitHub Actions**, with **Docker-based** delivery of microservices for consistency across development and production environments. Developed and maintained **Python** (Flask) microservices alongside C# services; used **Redis** for caching, pub/sub, and real-time data.
     - role: Head Development Engineer
       time: May 2019 – Jul 2022
       company: Non-state Pension Fund of Sberbank
       details: |
         Led development of backend services and system integrations in a high-load banking environment.
 
-        Played a key role in designing and implementing **.NET Core 3.1 microservices** for **Sber Online**, deployed in **OpenShift** containers.
+        Played a key role in designing and implementing **.NET Core 3.1 microservices** and **Python** (Flask) microservices for **Sber Online**, deployed in **OpenShift** containers.
 
         Developed integrations with internal systems, including:
         - **Diasoft CRM** (Delphi-based, MSSQL)
@@ -148,6 +163,8 @@ skills:
   toolset:
     - name: C# / .NET / .NET Core / ASP.NET MVC
       level: 98%
+    - name: Python / Flask / Redis
+      level: 85%
     - name: Microservices / REST API / gRPC / SignalR / Ocelot
       level: 95%
     - name: RabbitMQ / Message Queues
